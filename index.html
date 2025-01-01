@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body class="bg-gray-200 font-sans">
+    <!-- Navbar -->
+    <nav class="fixed top-0 w-full bg-white shadow-md z-50">
+        <div class="container mx-auto flex items-center justify-between p-1">
+            <a href="./index.html"><img src="./img.png" alt="Event Aura Logo" class="w-30 h-28"> </a>
+            <label for="sidebar-toggle" class="cursor-pointer z-50">
+                <div class="w-6 h-0.5 bg-gray-700 mb-1"></div>
+                <div class="w-6 h-0.5 bg-gray-700 mb-1"></div>
+                <div class="w-6 h-0.5 bg-gray-700"></div>
+            </label>
+        </div>
+    </nav>
+
+    <!-- Sidebar -->
+    <input type="checkbox" id="sidebar-toggle" class="hidden peer">
+    <div
+        class="fixed top-0 left-0 h-full w-80 bg-orange-500 text-orange-500  shadow-lg transform -translate-x-full peer-checked:translate-x-0 transition-transform duration-300 z-50">
+        <div class="p-6">
+            <li></li>
+            <li></li>
+
+            <div class="text-2xl font-bold text-white mb-6">Menu</div>
+            <ul class="space-y-4 text-black">
+                <li><a href="#home" class="block text-white hover:text-2xl">Home</a></li>
+                <li><a href="#about" class="block text-white hover:text-2xl">About</a></li>
+                <li><a href="#works" class="block text-white hover:text-2xl">Latest Works</a></li>
+                <li><a href="#Qualifications" class="block text-white hover:text-2xl">Educational Qualifications</a></li>
+                <li><a href="#contact" class="block text-white hover:text-2xl">Contact</a></li>
+
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Main Content -->
+    <main id="home" class="pt-20">
+        <div class="flex flex-col lg:flex-row h-screen">
+            <!-- Left Section -->
+            <div class="bg-gray-200 flex-1 flex flex-col justify-center px-8 lg:px-16">
+                <h2 class="text-5xl lg:text-6xl font-bold leading-tight">
+                    I design & develop <span class="text-orange-500">Websites</span> that make people’s lives
+                    simple.
+                </h2>
+
+            </div>
+
+            <!-- Right Section -->
+            <div class="bg-black text-white flex-1 flex flex-col justify-center items-center p-8">
+
+                <div class="text-center">
+                    <!-- Profile Picture -->
+                    <img src="./WhatsApp Image 2024-11-06 at 20.55.06_55604009.jpg" alt="Profile"
+                        class="w-23 h-32 rounded-full mx-auto mb-4">
+                    <span class="text-6xl font-bold text-orange-500">Aravind M</span>
+                    <p class="text-gray-500">Mearn Stack Developer</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonial Section -->
+        <section id="about" class="bg-orange-500 text-white text-center py-16">
+            <div class="max-w-6xl mx-auto px-4 text-center">
+                <div class="mb-6">
+                    <span class="text-orange-500 text-2xl">&#10022;</span>
+                </div>
+            <div class="max-w-2xl mx-auto px-4">
+                <div class="mb-6">
+                    <span class="text-xl">&#10022;</span>
+                </div>
+                <div class="column mcb-column mcb-item-boure0pj7 one column_divider">
+                    <hr class style="margin:0 auto 2px;background-color:#ec3d08">
+                </div>
+                <blockquote class="text-2xl font-light leading-relaxed">
+                    Hey therel I'm Aravind M, a MEAN stack developer at Luminar Technolabs. I'm all about building cool
+                    web apps. I love learning new tech and solving problems with code. In my free time, I dive into new
+                    frameworks and help out on open-source projects. I'm excited to connect with other tech folks and
+                    keep leveling up my skills. </p>
+
+                </blockquote>
+                <div class="column mcb-column mcb-item-boure0pj7 one column_divider">
+                    <hr class style="margin:0 auto 2px;background-color:#ec3d08">
+                </div>
+
+            </div>
+        </section>
+
+
+    </main>
+
+
+
+    <!-- My Latest Works Section -->
+    <section id="works" class="py-16 bg-white p-150">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <div class="mb-6">
+                <span class="text-orange-500 text-2xl">&#10022;</span>
+            </div>
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-12">My latest works</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Work 1 -->
+                <div class="relative group overflow-hidden rounded-lg shadow-lg">
+                    <a href="https://portfolio1-one-ruddy.vercel.app"> <img src="./Screenshot 2024-12-31 204932.png"
+                            alt="Work 1"
+                            class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex justify-center items-center">
+                            <p class="text-white text-lg font-semibold">My Portfolio using HTML</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- Work 2 -->
+                <div class="relative group overflow-hidden rounded-lg shadow-lg">
+                    <img src="./Screenshot 2025-01-01 174608.png" alt="Work 2"
+                        class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex justify-center items-center">
+                        <p class="text-white text-lg font-semibold">Nothing Phone Website</p>
+                    </div>
+                </div>
+                <!-- Work 3 -->
+                <div class="relative group overflow-hidden rounded-lg shadow-lg">
+                    <a href="https://eventaura.vercel.app"> <img src="./Screenshot 2025-01-01 174706.png" alt="Work 3"
+                            class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex justify-center items-center">
+                            <p class="text-white text-lg font-semibold">EventAura (Group Project)</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- Work 4 -->
+                <div class="relative group overflow-hidden rounded-lg shadow-lg">
+                    <a href="https://unisports.vercel.app">
+                        <img src="./Screenshot 2025-01-01 174815.png" alt="Work 4"
+                            class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex justify-center items-center">
+                            <p class="text-white text-lg font-semibold">Unisports (Group project)</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customers Section -->
+    <section id="Qualifications" class="bg-orange-500 mt-10 py-16">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <div class="mb-6">
+                <span class="text-white text-2xl">&#10022;</span>
+            </div>
+            <h2 class="text-4xl font-bold text-gray-800">Qualifications</h2>
+        </div>
+        <!-- Logos Section -->
+        <div class="bg-orange-500 mt-10 py-16">
+            <div class="flex justify-center gap-12 items-center flex-wrap">
+                <div class="relative group w-32 h-32">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW4Q4xDJIBVfj2ADZtFo4UcxtL-5At6BY5eg&s"
+                        alt="Customer 4"
+                        class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-gray-200 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex justify-center items-center">
+                        <span class="text-black text-sm font-semibold">Bsc Computer Science</span>
+                    </div>
+                </div>
+                <div class="relative group w-32 h-32">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFNtFQWi4DmofY6dDJxOjUoSarMyBhMhTu0A&s"
+                        alt="Customer 4"
+                        class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-gray-200 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex justify-center items-center">
+                        <span class="text-black text-sm font-semibold">Mearn Stack</span>
+                    </div>
+                </div>
+                <div class="relative group w-32 h-32">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpTE0q-WGHbJs5Z9mAfz8Xs5Q_adzoaKaYCA&s"
+                        alt="Customer 4"
+                        class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-gray-200 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex justify-center items-center">
+                        <span class="text-black text-sm font-semibold">Computer Science</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--contact-->
+    <section id="contact" class="py-16 bg-white pb-40">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <div class="mb-6">
+                <span class="text-orange-500 text-2xl">&#10022;</span>
+            </div>
+        <div class="text-center">
+            <h1 class="text-4xl font-bold text-gray-800">Connect with Me</h1>
+            <h2 class="text-xl text-gray-400">Social Media Handles</h2>
+        </div>
+
+        <div class="flex justify-center space-x-6 mt-8">
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/aravind-m-7545222ba" target="_blank"
+                class="text-4xl text-orange-500 hover:text-blue-400">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <!-- GitHub -->
+            <a href="https://github.com/Aravind-M23997" target="_blank" class="text-4xl text-orange-500 hover:text-gray-500">
+                <i class="fab fa-github"></i>
+            </a>
+            <!-- Twitter -->
+            <a href="#" target="_blank" class="text-4xl text-orange-500 hover:text-blue-300">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <!-- Facebook -->
+            <a href="#" target="_blank" class="text-4xl text-orange-500 hover:text-blue-500">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <!-- Instagram -->
+            <a href="#" target="_blank" class="text-4xl text-orange-500 hover:text-pink-400">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="bg-orange-500 text-center py-8">
+
+        <div class="text-sm text-gray-600 mt-6">
+            © 2024 <a href="./index.html" class="font-bold hover:underline">Aravind M</a> | All Rights Reserved</a>
+        </div>
+    </footer>
+</body>
+
+</html>
